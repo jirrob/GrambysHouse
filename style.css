@@ -1,0 +1,37 @@
+/*weezer font */
+* {
+  font-family: "Tw Cen MT";
+
+}
+/* text align stuff */
+body {
+  text-align: center;
+}
+/* removing underlines from links cause its ugly */
+a {
+text-decoration:  none;
+}
+/* stuff 4 cards */
+.cards {
+  grid-template-areas:
+    "a a a"
+    "b b b"
+    "c c c";
+}
+.card {
+  background-color: #ff0059;
+  padding: 0.4em;
+  color: #FFFFFF;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+.card1 { grid-area: a; color:  black; }
+.card2 { grid-area: b; background-color: #00ff75; color:  black; } 
+.card3 { grid-area: c; background-color: #ffa100; color:  black; } 
+
+size0 { font-size:  8px; }
+size1 { font-size:  72px; }
+size2 { font-size:  34px; }
+size3 { font-size:  24px;}
